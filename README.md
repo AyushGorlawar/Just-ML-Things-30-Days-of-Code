@@ -11,8 +11,10 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 
 ## Created three basic files:
 
-✓ what_is_ml.md – Theory and introduction
-✓ types_of_ml.md – Categorization with examples
-✓ setup.ipynb – Environment test + sample code
+✓ - what_is_ml.md – Theory and introduction
+
+✓ - types_of_ml.md – Categorization with examples
+
+✓ - setup.ipynb – Environment test + sample code
 
 ---
