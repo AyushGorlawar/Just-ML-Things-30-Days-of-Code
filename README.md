@@ -14,4 +14,5 @@ what_is_ml.md – Theory and introduction
 types_of_ml.md – Categorization with examples
 
 setup.ipynb – Environment test + sample code
+
 ---
