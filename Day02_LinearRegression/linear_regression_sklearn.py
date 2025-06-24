@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
-# Sample Data
+# Sample Data ( demo purpose  )
 X = np.array([[1], [2], [3], [4], [5]])
 y = np.array([2, 4, 6, 8, 10])  # y = 2x
 
-# Model Training
+# Model Training XY
 model = LinearRegression()
 model.fit(X, y)
 
-# Prediction
+# Prediction x
 y_pred = model.predict(X)
 
 # Evaluation
@@ -21,7 +21,7 @@ print("Slope (m):", model.coef_[0])
 print("Intercept (c):", model.intercept_)
 print("R² Score:", r2_score(y, y_pred))
 
-# Visualization
+# Visualization plot
 plt.scatter(X, y, color='blue', label="Actual")
 plt.plot(X, y_pred, color='red', label="Predicted")
 plt.xlabel("X")
