@@ -32,3 +32,19 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 
 ---
 
+# Day 3 (26-06-2025): Multiple Linear Regression
+
+✓ Today I implemented **Multiple Linear Regression** to predict a target variable based on **two or more input features**.
+
+✓ Learned how to prepare a feature matrix using `pandas`, fit the model with `LinearRegression()` from `scikit-learn`, and interpret the learned coefficients.
+
+✓ Also evaluated the model performance using **R² score** and predicted outputs for new inputs.
+
+## Created two files:
+
+✓ - `multiple_linear_regression_theory.md` – Concept, formula (`y = b₀ + b₁x₁ + b₂x₂ + ...`), and real-life applications  
+✓ - `multiple_linear_regression_sklearn.ipynb` – Code using `scikit-learn` with custom input features
+
+📊 Bonus: Plotted Actual vs Predicted values to visually assess model fit.
+
+---
