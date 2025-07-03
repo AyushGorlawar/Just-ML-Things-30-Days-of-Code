@@ -65,3 +65,54 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 📊 Bonus: Compared linear vs polynomial curve fitting and saw significant improvement for non-linear patterns.
 
 ---
+
+# Day 5 (28-06-2025): Logistic Regression
+
+✓ Today I implemented **Logistic Regression**, which is used for binary classification problems.
+
+✓ Explored how the **sigmoid function** converts linear output to probability, and used it to classify outcomes like Admitted (1) or Not (0).
+
+✓ Evaluated the model using **confusion matrix** and **classification report**.
+
+## Created two files:
+
+✓ - `logistic_regression_theory.md` – Explanation of sigmoid, binary classification, and performance metrics  
+✓ - `logistic_regression.py` – Code to train and evaluate a logistic regression model using scikit-learn
+
+📊 Bonus: Made predictions on new unseen inputs and analyzed the results.
+
+---
+
+# Day 6 (29-06-2025): K-Nearest Neighbors (KNN)
+
+✓ Today I implemented **KNN classifier**, a simple yet powerful algorithm based on **distance to nearest neighbors**.
+
+✓ Used the classic **Iris dataset**, applied **feature scaling**, and trained the model for `k=3`.
+
+✓ Evaluated performance using **classification report**.
+
+## Created two files:
+
+✓ - `knn_theory.md` – KNN intuition, distance calculation, and pros/cons  
+✓ - `knn_classifier.py` – Scikit-learn implementation with Iris dataset and standardization
+
+📊 Bonus: Compared results using different values of k and noted the impact.
+
+---
+
+# Day 7 (30-06-2025): Naive Bayes Classifier
+
+✓ Today I explored **Naive Bayes**, a probabilistic classifier based on **Bayes’ Theorem**.
+
+✓ Used `GaussianNB` for classification on the Iris dataset and learned about when to use Gaussian, Bernoulli, or Multinomial NB.
+
+✓ Focused on speed, simplicity, and surprisingly good accuracy for text-like data.
+
+## Created two files:
+
+✓ - `naive_bayes_theory.md` – Bayes’ formula, assumptions of independence, and use cases  
+✓ - `naive_bayes_classifier.py` – Implementation using scikit-learn’s GaussianNB
+
+📊 Bonus: Understood why Naive Bayes is so widely used in spam filtering and NLP tasks.
+
+---
