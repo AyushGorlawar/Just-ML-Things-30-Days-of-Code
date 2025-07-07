@@ -159,3 +159,43 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 ✓ - `kmeans_clustering.py`
 
 📊 Bonus: Understood how the algorithm converges by updating centroids iteratively.
+---
+
+# Day 13 (06-07-2025): Hierarchical Clustering
+✓ Learned about **Agglomerative Clustering** using dendrograms and linkage methods.
+
+✓ Visualized merges with a dendrogram and clustered synthetic data using Ward linkage.
+
+## Created two files:
+✓ - `hierarchical_clustering_theory.md`  
+✓ - `hierarchical_clustering.py`
+
+📊 Bonus: Observed how clusters are formed in a bottom-up fashion and explored complete vs average linkage.
+
+---
+
+# Day 14 (07-07-2025): Elbow Method + Silhouette Score
+✓ Implemented both **Elbow Method** and **Silhouette Score** to determine the optimal number of clusters for K-Means.
+
+✓ Used synthetic data to show how inertia and silhouette values change with different values of K.
+
+## Created two files:
+✓ - `clustering_evaluation_theory.md`  
+✓ - `kmeans_evaluation.py`
+
+📊 Bonus: Found K=4 to be optimal for our dataset using both methods.
+
+---
+
+# Day 15 (08-07-2025): Mini Project – Mall Customer Segmentation
+✓ Clustered real-world **Mall Customer Data** based on annual income and spending score.
+
+✓ Found optimal clusters (K=5) using the Elbow Method and visualized them with centroids.
+
+✓ Segments were interpretable and could be used for targeted marketing.
+
+## Created two files:
+✓ - `mall_segmentation_project.md`  
+✓ - `mall_customer_segmentation.py`
+
+📊 Bonus: Identified five distinct customer segments and potential business strategies for each.
