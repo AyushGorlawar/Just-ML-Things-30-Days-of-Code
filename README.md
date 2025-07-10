@@ -199,3 +199,35 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 ✓ - `mall_customer_segmentation.py`
 
 📊 Bonus: Identified five distinct customer segments and potential business strategies for each.
+
+# Day 16 (09-07-2025): Credit Card Fraud Detection Using Imbalanced Data Techniques
+
+✓ Today I tackled a real-world problem: detecting **fraudulent credit card transactions** from a highly **imbalanced dataset** (~0.17% fraud).
+
+✓ Learned to handle imbalance using **SMOTE** (Synthetic Minority Oversampling Technique) and built models with **Logistic Regression**, **Random Forest**, and **XGBoost**.
+
+✓ Evaluated models using **Precision, Recall, F1-Score**, and **ROC-AUC** to focus on minimizing false negatives (undetected fraud).
+
+## Created three files:
+✓ - `fraud_detection_theory.md` – Explained the challenge of imbalanced data, fraud detection techniques, and SMOTE logic
+✓ - `fraud_detection.ipynb` – Data cleaning, SMOTE balancing, model training + ROC curve
+✓ - `model_comparison.png` – ROC Curve comparison of all three models
+
+📊 Bonus: XGBoost performed the best with an ROC AUC close to **0.98**, making it ideal for high-recall fraud detection systems.
+
+---
+
+## 📂 Dataset
+- Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- 284,807 transactions with anonymized features (`V1` to `V28`) + `Amount` and `Time`
+- Target: `Class` → 0 = Legit, 1 = Fraud
+
+---
+
+## 📈 What I Learned
+- Imbalanced datasets need special handling – accuracy alone is misleading.
+- SMOTE works well to balance data synthetically.
+- ROC-AUC and F1-Score are better metrics than accuracy here.
+- Fraud detection models must prioritize **Recall** (catching frauds).
+
+
