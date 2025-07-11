@@ -230,4 +230,27 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 - ROC-AUC and F1-Score are better metrics than accuracy here.
 - Fraud detection models must prioritize **Recall** (catching frauds).
 
+# Day 17 (09-07-2025): Handling Missing Values & Outliers
+
+✓ Today I explored techniques for handling **missing values** using mean/median imputation.
+
+✓ Also learned to detect and remove **outliers** using the IQR method and visualized them using boxplots.
+
+✓ - `missing_outlier_handling_theory.md`  
+✓ - `missing_outlier_handling.py`
+
+📊 Bonus: Cleaned a dummy dataset and removed an outlier with age 120!
+
+---
+
+# Day 18 (10-07-2025): Scaling, Normalization & Encoding
+
+✓ Learned how to prepare data for ML by **scaling features** and **encoding categorical variables**.
+
+✓ Applied `StandardScaler`, `LabelEncoder`, and `OneHotEncoder` to transform data correctly.
+
+✓ - `scaling_encoding_theory.md`  
+✓ - `scaling_encoding.py`
+
+📊 Bonus: Observed how scaling changes data distribution and why it’s crucial for models like SVM & KNN.
 
