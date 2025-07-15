@@ -254,3 +254,87 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 
 📊 Bonus: Observed how scaling changes data distribution and why it’s crucial for models like SVM & KNN.
 
+---
+
+# Day 19 (11-07-2025): Feature Selection Techniques
+
+✓ Today I learned how to identify and select the **most important features** for a model using techniques like:
+
+* **Univariate Selection** (SelectKBest with chi²)
+* **Feature Importance** using Random Forest
+* **Correlation Matrix**
+
+✓ This helped reduce dimensionality and improve model performance.
+
+## Created two files:
+
+✓ - `feature_selection_theory.md`
+✓ - `feature_selection.py`
+
+📊 Bonus: Visualized feature importance scores and removed low-impact variables from a dataset.
+
+---
+
+# Day 20 (12-07-2025): Hyperparameter Tuning with GridSearchCV
+
+✓ Today I implemented **Grid Search** using `GridSearchCV` to find the best combination of hyperparameters for a model.
+
+✓ Used Logistic Regression and Random Forest on a dataset with different parameters (like C, max\_depth, n\_estimators).
+
+## Created two files:
+
+✓ - `gridsearch_theory.md`
+✓ - `gridsearch_tuning.py`
+
+📊 Bonus: Observed how Grid Search improves performance through exhaustive search on parameter combinations.
+
+---
+
+# Day 21 (13-07-2025): Cross-Validation Techniques
+
+✓ Explored **K-Fold Cross-Validation**, **Stratified K-Fold**, and **Leave-One-Out (LOO)** methods.
+
+✓ Compared the average accuracy and standard deviation across different splits.
+
+## Created two files:
+
+✓ - `cross_validation_theory.md`
+✓ - `cross_validation.py`
+
+📊 Bonus: Understood why cross-validation helps reduce overfitting and improves generalization.
+
+---
+
+# Day 22 (14-07-2025): Model Evaluation Metrics – Precision, Recall, F1 Score & ROC-AUC
+
+✓ Today I focused on classification metrics beyond accuracy:
+
+* **Precision** (TP / TP+FP)
+* **Recall** (TP / TP+FN)
+* **F1 Score**
+* **ROC-AUC Curve**
+
+✓ Created and visualized ROC curves to evaluate classifiers better.
+
+## Created two files:
+
+✓ - `model_evaluation_metrics.md`
+✓ - `model_evaluation_metrics.py`
+
+📊 Bonus: Understood how ROC-AUC is especially important for **imbalanced classification tasks**.
+
+---
+
+# Day 23 (15-07-2025): Train Pipeline with Scikit-learn
+
+✓ Built a complete **ML pipeline** using `Pipeline()` from `scikit-learn` to chain preprocessing and modeling steps.
+
+✓ Used a `StandardScaler` and `RandomForestClassifier` in one pipeline with cross-validation.
+
+## Created two files:
+
+✓ - `pipeline_theory.md`
+✓ - `train_pipeline.py`
+
+📊 Bonus: Observed how pipelines make ML code cleaner, reduce data leakage, and integrate well with `GridSearchCV`.
+
