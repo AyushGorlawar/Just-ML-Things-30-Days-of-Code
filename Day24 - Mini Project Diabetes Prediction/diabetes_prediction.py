@@ -45,7 +45,7 @@ rf.fit(X_train, y_train)
 y_pred_rf = rf.predict(X_test)
 print("Random Forest:\n", classification_report(y_test, y_pred_rf))
 
-# ROC-AUC Scores
+# ROC-AUC Scores to display results 
 print("\nROC AUC Scores:")
 print("LR:", roc_auc_score(y_test, lr.predict_proba(X_test_scaled)[:, 1]))
 print("KNN:", roc_auc_score(y_test, knn.predict_proba(X_test_scaled)[:, 1]))
