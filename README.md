@@ -338,3 +338,15 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 
 📊 Bonus: Observed how pipelines make ML code cleaner, reduce data leakage, and integrate well with `GridSearchCV`.
 
+# Day 24 (16-07-2025): Mini Project – Diabetes Prediction
+
+✓ Worked on a real-world dataset to classify diabetic vs non-diabetic patients.
+
+✓ Used Logistic Regression, KNN, and Random Forest models after scaling and preprocessing the data.
+
+✓ Evaluated with classification metrics and ROC-AUC.
+
+✓ - `diabetes_prediction_project.md`  
+✓ - `diabetes_prediction.py`
+
+📊 Bonus: Random Forest performed the best, with good recall and ROC-AUC near 0.89.
