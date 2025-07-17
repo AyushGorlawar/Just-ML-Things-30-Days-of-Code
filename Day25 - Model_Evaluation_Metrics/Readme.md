@@ -26,3 +26,13 @@ The following metrics are used to evaluate the model's performance:
 ## Objective
 
 The goal is to demonstrate how different evaluation metrics can provide deeper insights into model performance, especially in scenarios where accuracy alone may be misleading.
+
+
+## Output Summary (from execution):
+- Accuracy: 95.6%
+
+- Precision: 94.5%
+
+- Recall: 98.6%
+
+- F1 Score: 96.5%
