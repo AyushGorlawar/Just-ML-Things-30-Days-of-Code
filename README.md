@@ -350,3 +350,32 @@ A personal 30-day journey to sharpen my Machine Learning skills through daily co
 ✓ - `diabetes_prediction.py`
 
 📊 Bonus: Random Forest performed the best, with good recall and ROC-AUC near 0.89.
+
+---
+# Day 25 (17-07-2025): Model Evaluation – Classification Metrics Deep Dive
+
+✓ Today I revisited and applied key **classification evaluation metrics** on a real dataset — the Breast Cancer dataset from `sklearn.datasets`.
+
+✓ Used a **Logistic Regression** classifier and evaluated predictions using multiple metrics to understand model performance across different aspects.
+
+### Covered the following evaluation metrics:
+
+* **Accuracy** – Overall correctness of the model
+* **Precision** – Ability to avoid false positives
+* **Recall** – Ability to detect all true positives
+* **F1 Score** – Harmonic mean of precision and recall
+* **Confusion Matrix** – Summarizes predictions vs. actual
+* **Classification Report** – Detailed breakdown by class
+
+✓ Also visualized the **confusion matrix** using a heatmap (via `seaborn`) for better interpretability.
+
+## Created two files:
+
+✓ - `classification_metrics_theory.md` – Explained each metric, when to use, and why accuracy isn't always enough
+✓ - `classification_metrics.py` – Code using `LogisticRegression` with printed metrics and a heatmap of confusion matrix
+
+---
+
+Bonus: Found that although accuracy was high (\~95%), **recall and precision** gave a more complete picture of model quality, especially in medical datasets where false negatives can be critical.
+
+---
